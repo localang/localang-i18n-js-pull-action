@@ -1,6 +1,6 @@
 # I18n Pull Action
 
-This action pull i18n keysets from [localang.xyz](https://localang.xyz) service.
+This action pulls i18n keysets from [localang.xyz](https://localang.xyz) service.
 
 ## Inputs
 
@@ -15,7 +15,7 @@ This action pull i18n keysets from [localang.xyz](https://localang.xyz) service.
 ## Example usage
 
 ```yaml
-uses: actions/localang-i18n-pull@123qwe123eqw
+uses: actions/localang-i18n-pull@TODO
 with:
   api-key: ${{ secrets.LocalangApiKey }}
   project-id: 5
