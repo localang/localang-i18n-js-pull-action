@@ -17,6 +17,6 @@ This action pulls i18n keysets from [localang.xyz](https://localang.xyz) service
 ```yaml
 uses: actions/localang-i18n-pull@TODO
 with:
-  api-key: ${{ secrets.LocalangApiKey }}
+  api-key: ${{ secrets.LOCALANG_API_KEY }}
   project-id: 5
 ```

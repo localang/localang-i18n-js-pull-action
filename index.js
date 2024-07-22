@@ -1,5 +1,5 @@
 const core = require('@actions/core');
-const { pull } = require('localang-js-lib');
+const { pull } = require('localang-i18n-js');
 
 function run() {
     try {

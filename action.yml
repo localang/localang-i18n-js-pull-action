@@ -1,0 +1,12 @@
+name: 'Pull I18n Files'
+description: 'Pulls I18n files from localang.xyz and updates current branch'
+inputs:
+  api-key:
+    description: 'API Key to update translations on localang.xyz'
+    required: true
+  project-id:
+    description: 'ID of project on localang.xyz'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
